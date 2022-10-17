@@ -162,3 +162,40 @@ padding:20px;
     
     border: solid 1px yellow;
 }
+
+
+/* FORMULARIO */
+.section__contacto{
+  text-align: center;
+  background-color: #1687A0;
+}
+.section__contacto h2{
+  color: #FF1B1B;
+  padding: 2rem 0;
+}
+.formulario{
+  margin: auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container__inputs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container__inputs input{
+  width: 48%;
+  height: 3rem;
+  margin: 1% 0;
+}
+.formulario button{
+  height: 56px;
+  width: 167px;
+  background-color: #233451;
+  border: none;
+  margin: 2rem auto;
+  color: white;
+  text-align: center;
+}
