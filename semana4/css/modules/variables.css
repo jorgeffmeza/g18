@@ -13,5 +13,13 @@
     --letter-color-4:#bb00ff;
     --letter-color-5:#ff00ff;
     --letter-color-6:#ff0697;
+}
 
+@media (max-width: 760px){
+    :root   {
+    --padding-section:2rem;
+    --padding-container:0.75rem;
+    --max-width-container:1024px;
+    --primary-theme-color:red;
+            }
 }
